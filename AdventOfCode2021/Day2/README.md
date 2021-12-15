@@ -33,7 +33,7 @@ After following these instructions, you would have a horizontal position of 15 a
 Calculate the horizontal position and depth you would have after following the planned course. What do you get if you multiply your final horizontal position by your final depth?
 <details>
   <summary><strong><em>See result here</em></strong></summary>
-	Your puzzle answer was <strong><em></em></strong>.
+	Your puzzle answer was <strong><em>1488669</em></strong>.
 </details>
 
 ## Part 2
