@@ -42,5 +42,31 @@ static int SolvePartOne(List<KeyValuePair<string, int>> commands)
 
 static int SolvePartTwo(List<KeyValuePair<string, int>> commands)
 {   
-    return 1;
+    var horizontal_position = 0;
+    var depth = 0;
+    var aim = 0;
+
+    foreach (var item in commands)
+    {
+        switch (item.Key)
+        {
+            case "forward":
+                horizontal_position += item.Value;
+                depth += aim * item.Value;
+                break;
+            
+            case "down":
+                aim += item.Value;
+                break;
+
+            case "up":
+                aim -= item.Value;
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    return depth * horizontal_position;
 }
